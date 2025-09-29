@@ -15,6 +15,7 @@ a {
 h1, h2, h3 {
   padding-bottom: 20px;
   padding-top: 20px;
+
  }
 .container {
   margin: auto;
@@ -103,7 +104,7 @@ h1, h2, h3 {
   #info {
     height: 400px;
   }
-  #info .content {
+  #info .info-content {
     float: right;
     width: 50%;
     height: 100%;
@@ -125,4 +126,15 @@ h1, h2, h3 {
     width: 33.3%;
     padding: 50px;
     text-align: center;
+  }
+  #features .box i {
+    margin-bottom: 10px;
+  }
+  footer {
+    padding: 20px;
+    background: #444;
+    color: #fff;
+  }
+  .clear {
+    clear: both;
   }
